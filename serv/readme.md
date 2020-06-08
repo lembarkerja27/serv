@@ -83,3 +83,13 @@ crud
  php artisan make:controller PegawaiController
 
 ```
+
+crud ajax
+
+```
+
+php artisan make:migration create_ajax_cruds_table --create=ajax_cruds
+php artisan make:model AjaxCrud -m
+composer require yajra/laravel-datatables-oracle
+php artisan make:controller AjaxCrudController --resource
+```
