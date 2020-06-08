@@ -75,3 +75,11 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 
  resources controller
 - php artisan make:controller UserController --resource
+
+
+crud
+
+```cmd
+ php artisan make:controller PegawaiController
+
+```

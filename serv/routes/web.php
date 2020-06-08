@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/coba', 'CobaController@index')->name('coba');
+Route::get('/pegawai','PegawaiController@index');
